@@ -13,13 +13,12 @@ Ejercicio 10
     Si el email es "fakemail@gmail.com", debe devolver "gmail.com".
     Si el email es "", debe devolver "Dirección de correo incorrecta".
 */
-wrongmail.com
 let email = prompt("Escribe una dirección de correo");
 
 if (email.includes("@")) {
     var email_analizado = /^([^]+)@(\w+).(\w+)$/.exec(email); // Expresion regular para separar string por (nombre,servidor y dominio)
     var [, nombre, servidor, dominio] = email_analizado;
-    
+
     if (servidor == "") {
         console.log("Dirección de correo incorrecta");
     } else {
