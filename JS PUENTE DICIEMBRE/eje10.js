@@ -16,15 +16,8 @@ Ejercicio 10
 let email = prompt("Escribe una dirección de correo");
 
 if (email.includes("@")) {
-    var email_analizado = /^([^]+)@(\w+).(\w+)$/.exec(email); // Expresion regular para separar string por (nombre,servidor y dominio)
-    var [, nombre, servidor, dominio] = email_analizado;
-
-    if (servidor == "") {
-        console.log("Dirección de correo incorrecta");
-    } else {
-        console.log(servidor + "." + dominio);
-    }
-
+    let arroba = email.indexOf("@");
+    console.log(email.slice(arroba + 1, email.length));
 } else {
     console.log("Dirección de correo incorrecta");
 }
