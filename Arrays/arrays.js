@@ -159,6 +159,7 @@ console.log(newArray);
 */
 /*
 EJERCICIO 9*/
+/*
 const grades = [5, 7, 7, 4, 8, 5, 3, 9];
 let sumaGrades = 0
 
@@ -168,3 +169,4 @@ for (let i = 0; i < grades.length; i++) {
 
 let promedio = sumaGrades/grades.length
 console.log("El promedio es igual a " + promedio);
+*/
