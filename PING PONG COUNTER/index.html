@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PING PONG COUNTER</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <img src="./pingpong.jpg" width="400" alt="pinpong">
+        <div class="mainContainer">
+            <h2><span id="player1">0</span> &nbsp;&nbsp; to &nbsp;&nbsp; <span id="player2">0</span></h2>
+
+            <label>Max points:
+                <select name="maxPoints">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+            </label>
+
+            <div class="bttPoints">
+                <button id="bttPlayer1" class="btt player1">Player 1 (+)</button>
+                <button id="bttPlayer2" class="btt player2">Player 2 (+)</button>
+            </div>
+            <button class="btt reset">Start again!</button>
+
+
+        </div>
+    </main>
+</body>
+
+<script src="./scripts.js"></script>
+</html>

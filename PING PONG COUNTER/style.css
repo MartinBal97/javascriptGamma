@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    border-radius: 10px;
+}
+body {
+    display:grid;
+    place-items: center;
+    background-color:azure;
+}
+
+main {
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: aliceblue;
+}
+
+.mainContainer{
+    text-align: center;
+}
+
+h2,label{
+    margin: 1rem;
+}
+
+.mainContainer .bttPoints {
+    margin-top: 1rem;
+    display: flex;
+}
+.mainContainer .btt{
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+.player1 {
+    background-color: rgb(232, 63, 63);
+}
+.player2 {
+    background-color: rgb(116, 168, 236);
+}
+.reset {
+    background-color: rgb(167, 255, 175);
+    border-radius: 0 0 10px 10px;
+}
