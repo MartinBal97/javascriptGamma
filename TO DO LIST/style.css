@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    text-align: center;
+}
+body {
+    background-color: rgb(252, 81, 81);
+    color: rgb(19, 19, 19);
+}
+h1{
+    margin-top: 3rem;
+}
+main div p {
+    margin-top: 1rem;
+}
+button {
+    
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input{
+    margin: 1rem;
+    padding: 5px;
+}
+.add {
+    background-color: rgb(255, 200, 200);
+}
+.clear {
+    background-color:beige;
+}
+.containerTareas {
+    margin: 1rem  auto 0 auto;
+    border: 2px solid rgb(196, 1, 1);
+    border-radius: 20px;
+    background-color: azure;
+    width: 90%;
+
+}
+.tareas { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas p{
+    padding: 0.5rem;
+    font-size:16px ;
+
+}
+.delete {
+    background-color: rgb(41, 228, 12);
+    border: 2px solid azure;
+    font-weight: bold;
+    font-size:16px ;
+    padding: 5px 10px;
+    margin: 5px;
+}
+hr {
+    margin: 0 auto;
+    width: 90%;
+}

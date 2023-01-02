@@ -9,9 +9,6 @@ let counterPlayer1= 0
 let counterPlayer2= 0
 let valueMaxPoints = 3
 
-console.log(valueMaxPoints);
-
-
 maxPoints.addEventListener('change', (e) => valueMaxPoints = e.target.value )
 
 bttPlayer1.addEventListener('click', () => {

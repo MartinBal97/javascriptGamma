@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding: 0;
+    margin: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(4, 148, 90);
+}
+form {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+form *, p {
+    font-size: 18px;
+}
+p{
+    text-align: center;
+}
+.submit{
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.coste{
+    font-size: 20px;
+
+}
