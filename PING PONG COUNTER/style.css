@@ -8,9 +8,12 @@ img {
     border-radius: 10px;
 }
 body {
-    display:grid;
-    place-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color:azure;
+    height: 100vh;
+    background-color: rgb(149, 191, 215);
 }
 
 main {
@@ -38,6 +41,14 @@ h2,label{
     cursor: pointer;
     width: 100%;
     font-weight: bold;
+}
+.winnerp {
+    background-color: rgb(111, 245, 149);
+    color: rgb(7, 90, 22);
+    font-weight: bold;
+    margin: 1rem;
+    padding: 0.5rem 0;
+    border-radius: 10px;
 }
 .player1 {
     background-color: rgb(232, 63, 63);
